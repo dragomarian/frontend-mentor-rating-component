@@ -8,6 +8,8 @@
 
 :root {
   --cl-bg-900: hsl(213, 29%, 6%);
+  --cl-bg-800: hsl(214, 35%, 8%);
+  --cl-bg-700: hsl(214, 40%, 10%);
   --cl-bg-600: hsl(213, 17%, 12%);
   --cl-bg-400: hsl(212, 16%, 15%);
 }
@@ -43,6 +45,7 @@ html body .hl-text {
   height: fit-content;
   padding: 2rem;
   background-color: var(--cl-bg-600);
+  background-image: radial-gradient(at top, var(--cl-bg-700), var(--cl-bg-800));
   border-radius: 1em;
 }
 @media (min-width: 450px) {
