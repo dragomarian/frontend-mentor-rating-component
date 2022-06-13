@@ -142,6 +142,7 @@ html body .hl-text {
   justify-self: center;
   text-align: center;
 }
+.container h1,
 .container h2 {
   font-weight: 500;
 }

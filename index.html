@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -11,9 +11,10 @@
   <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
-  <div class="container">
+<main>
+  <section class="container">
     <div class="start" id="select-card">
-      <img src="./images/icon-star.svg">
+      <img src="./images/icon-star.svg" alt="">
       <h2>How did we do?</h2>
 
       <p>Please let us know how we did with your support request. All feedback is appreciated 
@@ -39,19 +40,20 @@
     </div>
 
     <div class="end disabled" id="thanks-card">
-      <img src="./images/illustration-thank-you.svg" alt="Thank you!">
+      <img src="./images/illustration-thank-you.svg" alt="Illustration with a phone, a circle and a card.">
       <p class="hl-text">You selected <span id="selected-rating"></span> out of 5</p>
 
-      <h2>Thank you!</h2>
+      <h1>Thank you!</h1>
 
       <p>We appreciate you taking the time to give a rating. If you ever need more support, 
       don't hesitate to get in touch!</p>  
     </div>
-  </div>
+  </section>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Marian Dragomir</a>.
   </div>
   <script src="./main.js"></script>
+</main>
 </body>
 </html>

@@ -22,7 +22,7 @@ submitBtn.addEventListener('click', () =>{
     }
 
     if(ratingValue == undefined) {
-        console.log('please select a rating')
+        alert('Please select a rating.');
     } else {
         selectedRating.innerText = ratingValue;
         selectCard.classList.toggle('disabled');
