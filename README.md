@@ -1,0 +1,1 @@
+Hi! Used SASS, HTML and JS to recreate [this](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/interactive-rating-component-eIyzyksY34) Frontend Mentor challenge. 
